@@ -3,7 +3,17 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="content has-text-centered">
-          <p>💡 How To Use Disco Diffusion: Check this article on Medium.</p>
+          <p>
+            💡 How To Use Disco Diffusion: Check{" "}
+            <a
+              className="underline"
+              href="https://zhuanlan.zhihu.com/p/525711569"
+            >
+              {" "}
+              this article
+            </a>
+            .
+          </p>
         </div>
       </div>
     </footer>
